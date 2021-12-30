@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee0fca41845bbd9a68028e1df09c30a9",
+    "content-hash": "65ccfa13072130f42d3cd2eb3dae3d49",
     "packages": [
+        {
+            "name": "appzcoder/lumen-routes-list",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/appzcoder/lumen-route-list.git",
+                "reference": "7fd3af0439009aa507ba3743a53a5129193d5d53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/appzcoder/lumen-route-list/zipball/7fd3af0439009aa507ba3743a53a5129193d5d53",
+                "reference": "7fd3af0439009aa507ba3743a53a5129193d5d53",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0||^6.0",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Appzcoder\\LumenRoutesList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sohel Amin",
+                    "email": "sohelamincse@gmail.com",
+                    "homepage": "http://www.appzcoder.com"
+                }
+            ],
+            "description": "Display the route list of Lumen",
+            "keywords": [
+                "lumen",
+                "route list"
+            ],
+            "support": {
+                "issues": "https://github.com/appzcoder/lumen-route-list/issues",
+                "source": "https://github.com/appzcoder/lumen-route-list/tree/v1.1.0"
+            },
+            "time": "2019-09-18T19:06:58+00:00"
+        },
         {
             "name": "doctrine/inflector",
             "version": "v1.2.0",
@@ -4132,5 +4178,6 @@
     "platform": {
         "php": ">=7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }

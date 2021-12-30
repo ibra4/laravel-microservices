@@ -17,7 +17,7 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
 WORKDIR /var/www/html
 
-EXPOSE 80
+EXPOSE 9000
 
 ENTRYPOINT ["entrypoint.sh"]
 
